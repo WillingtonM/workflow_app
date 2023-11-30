@@ -1,0 +1,26 @@
+composer.phar
+/vendor/
+
+#.env
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+# ignore images
+#**/*.jpg
+#!/img/*.jpg
+#**/*.png
+#!/img/*.png
+#**/*.gif
+#!/img/*.gif
+
+.zip
+
+web/docs/
+web/img/media/
+web/img/articles/
+web/img/users/
+web/mediacontent/
+
+node_modules

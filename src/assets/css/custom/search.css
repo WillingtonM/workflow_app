@@ -1,0 +1,18 @@
+.search_text {
+  padding: 5px 15px;
+}
+
+.search_text a {
+  color: #333;
+}
+
+.search_text a:hover {
+  color: #666;
+}
+.search_text:hover {
+  background-color: #f2f0f0;
+}
+
+.display_box_hover {
+	background-color: #e6e6e6;
+}

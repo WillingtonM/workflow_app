@@ -1,0 +1,1 @@
+<?php require_once $config['PARSERS_PATH'] . 'bookings' . DS . 'quote_form.php' ?>

@@ -1,0 +1,7 @@
+#login_form_div, #admin_login_form_div {
+  -webkit-box-shadow: 0px 4px 7px -3px rgba(43,42,43,1);
+     -moz-box-shadow: 0px 4px 7px -3px rgba(43,42,43,1);
+          box-shadow: 0px 4px 7px -3px rgba(43,42,43,1);
+
+  border: 1px solid #ddd; border-radius: 7%; padding-top: 45px;
+}
