@@ -9,7 +9,7 @@
                        <h3 class="font-weight-bolder text-white"> <span class="me-2"> <?= PROJECT_TITLE ?> </span> <i class="me-2 text-warning"> features </i></h3>
 
                        <small class="m-0 text-light fs-6">
-                            <?= PROJECT_TITLE ?> is a powerful and intuitive management platform designed specifically for legal firms and professionals. <br>
+                            <?= PROJECT_TITLE ?> is a powerful and intuitive task management platform designed specifically for teams and companies. <br>
                             It provides a centralized platform to manage deceased estate administrations, conveyancing, marriage contracts, notary services, and wills etc.
                             <br> <br>
                             <span class="font-weight-bolder"><?= PROJECT_TITLE ?> offers the following key features:</span>

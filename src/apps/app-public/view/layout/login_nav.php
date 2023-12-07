@@ -35,7 +35,7 @@
                   <a class="nav-link nav_text def_text"> &nbsp; </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav_text text-dark" style="color: #29374B !important" href="pricing"><i class="fa-solid fa-layer-group me-1"></i> Features & Pricing</a>
+                  <a class="nav-link nav_text text-dark" style="color: #29374B !important" href="features"><i class="fa-solid fa-layer-group me-1"></i> Features </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link nav_text text-dark" style="color: #29374B !important" href="about"><i class="fa-solid fa-circle-info me-1"></i> About</a>

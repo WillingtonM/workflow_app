@@ -43,7 +43,7 @@
                   <a class="nav-link nav_text def_text <?= ((isset($page) && $page == "home") ? 'active nav_text_left' : '') ?>" href="home"><i class="fa-solid fa-home me-1"></i> Home </a>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link nav_text def_text <?= ((isset($page) && $page == "pricing") ? 'active nav_text_left' : '') ?>" href="pricing"><i class="fa-solid fa-layer-group me-1"></i> Features & Pricing</a>
+                  <a class="nav-link nav_text def_text <?= ((isset($page) && $page == "features") ? 'active nav_text_left' : '') ?>" href="features"><i class="fa-solid fa-layer-group me-1"></i> Features </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link nav_text def_text <?= ((isset($page) && $page == "about") ? 'active nav_text_left' : '') ?>" href="about"><i class="fa-solid fa-circle-info me-1"></i> About</a>
