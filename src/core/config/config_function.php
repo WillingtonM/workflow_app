@@ -6,12 +6,13 @@ function db_hash($secret){
 
 function create_sql_table($script_path, $link){
   $sqlErrorCode = 0;
+  $sqlErrorText = '';
 
   $f = fopen($script_path,"r+");
   $sqlFile = fread($f, filesize($script_path));
 
   // Remove C style and inline comments
-  $comment_patterns = array('/\/\*.*(\n)*.*(\*\/)?/', //C comments
+  $comment_patterns   = array('/\/\*.*(\n)*.*(\*\/)?/', //C comments
                             '/\s*--.*\n/', //inline comments start with --
                             '/\s*#.*\n/', //inline comments start with #
                             );
@@ -23,11 +24,12 @@ function create_sql_table($script_path, $link){
 
   foreach ($sqlArray as $stmt) {
     if (strlen($stmt)>3 && substr(ltrim($stmt),0,2)!='/*') {
-      $result = mysqli_query($link, $stmt);
+      $result         = $link->query($stmt);
+
       if (!$result) {
-        $sqlErrorCode = mysqli_errno($link);
-        $sqlErrorText = mysqli_error($link);
-        $sqlStmt = $stmt;
+        $errorInfo    = $result->errorInfo;
+        $sqlErrorCode = $errorInfo[1];
+        $sqlErrorText = $errorInfo[2];
         break;
       }else{
         $sqlErrorCode = 0;
@@ -41,9 +43,7 @@ function create_sql_table($script_path, $link){
     $err =  "An error occured during installation!<br/>";
     echo "Error code: $sqlErrorCode<br/>";
     echo "Error text: $sqlErrorText<br/>";
-    // echo "Statement:<br/> $sqlStmt<br/>";
   }
+  
   // echo $err;
-
 }
-
