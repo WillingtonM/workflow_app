@@ -8,6 +8,12 @@ if (getenv("CLEARDB_DATABASE_URL")) { // ClearDB Connection Information
   $db_user = $db_url['user'];
   $db_pass = $db_url['pass'];
   $db_name = substr($db_url['path'],1);
+} elseif (getenv("JAWSDB_URL")) { // JawsDB Connection Information
+  $db_url  = parse_url(getenv("JAWSDB_URL"));
+  $db_host = $db_url['host'];
+  $db_user = $db_url['user'];
+  $db_pass = $db_url['pass'];
+  $db_name = ltrim($db_url['path'],'/');
 } elseif($_SERVER['HTTP_HOST'] === 'localhost') {       // Localhost Connection Information
   $db_host = 'localhost';
   $db_user = 'root';
