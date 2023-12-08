@@ -252,7 +252,7 @@ $login_carousel   = array(
       'long'      => 'SMS integration, email and other Communication tools',
       'imgs'      => 'fas fa-user',
       'type'      => 'font',
-      'page'      => 'communication',
+      'page'      => 'communication.jpg',
       'anim'      => 'bounce'
     ),
     'signup'      => array(
@@ -260,7 +260,7 @@ $login_carousel   = array(
       'long'      => 'Data integration, migration and data management tools',
       'imgs'      => 'fa-solid fa-address-card',
       'type'      => 'font',
-      'page'      => 'data',
+      'page'      => 'data.jpg',
       'anim'      => 'bounce'
     ),
   ),
@@ -270,7 +270,7 @@ $login_carousel   = array(
       'long'      => 'Automation tools to ensure easy management of processes',
       'imgs'      => 'fas fa-user',
       'type'      => 'font',
-      'page'      => 'seamless',
+      'page'      => 'seamless.jpg',
       'anim'      => 'bounce'
     ),
     'signup'      => array(
@@ -278,7 +278,7 @@ $login_carousel   = array(
       'long'      => 'Time and Cost effective data management technological system',
       'imgs'      => 'fa-solid fa-address-card',
       'type'      => 'font',
-      'page'      => 'time',
+      'page'      => 'time.jpg',
       'anim'      => 'bounce'
     ),
   ),
@@ -288,7 +288,7 @@ $login_carousel   = array(
       'long'      => 'Platform to track user tasks and workflow with data visualisation',
       'imgs'      => 'fas fa-user',
       'type'      => 'font',
-      'page'      => 'tasks',
+      'page'      => 'tasks.jpg',
       'anim'      => 'bounce'
     ),
     'signup'      => array(
@@ -296,7 +296,7 @@ $login_carousel   = array(
       'long'      => 'Platform to manage users and user permissions and task assignment',
       'imgs'      => 'fa-solid fa-address-card',
       'type'      => 'font',
-      'page'      => 'user',
+      'page'      => 'user.jpg',
       'anim'      => 'bounce'
     ),
   ),
@@ -304,8 +304,8 @@ $login_carousel   = array(
 
 // create account tabs
 $account_tabs   = array(
-  'account'        => array(
-      'name'      => 'Create Account',
+  'account'     => array(
+    'name'      => 'Create Account',
     'long'      => '',
     'imgs'      => 'fas fa-tools',
     'type'      => 'font',

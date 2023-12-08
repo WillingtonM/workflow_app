@@ -1,15 +1,5 @@
 <div id="headnav" class="topnavbar fixed-top">
-  <div class="container social_top">
-    <div class="row p-3">
-      <!-- <div class="social_med col-12 p-0 px-3 bg-none">
-        <?php foreach ($social_media as $key => $social) : ?>
-          <a class="float-end p-2" style="font-size: .7rem" href="<?= $social['link'] ?>" target="_blank"><i class="<?= $social['font'] ?> fa-2x/"></i></a>
-        <?php endforeach; ?>
-        <a class="float-end p-2" style="font-size: .7rem" href="mailto:info@<?= $_ENV['PROJECT_HOST'] ?>" target="_blank"> info@<?= $_ENV['PROJECT_HOST'] ?> </a>
-      </div> -->
-    </div>
-    <div class="clear-fix"></div>
-  </div>
+  
 
   <div class="container position-sticky z-index-sticky top-0 p-0 m-0/">
     <div class="row">

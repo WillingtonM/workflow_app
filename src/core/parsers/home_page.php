@@ -24,7 +24,7 @@
                                         <div class="card shadow-lg card-blog/ bg-white text-center wait-<?= $count ?>s" data-animation="animated <?= $item['anim'] ?>" style="border-radius: 35px 35px 20px 20px;">
                                             <div class="position-relative">
                                                 <a class="d-block">
-                                                    <img src="<?= img_path(ABS_SERVICE, $item['page'] .'.jpg', 2)   ?>" alt="data" class="img-fluid" style="border-radius: 35px 35px 0 0; ">
+                                                    <img src="<?= img_path(ABS_SERVICE, $item['page'], 2)   ?>" alt="data" class="img-fluid" style="border-radius: 35px 35px 0 0; ">
                                                 </a>
                                             </div>
                                             <div class="card-body p-3">
