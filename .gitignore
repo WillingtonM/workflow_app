@@ -19,7 +19,7 @@ composer.phar
 web/docs/
 web/img/media/
 web/img/articles/
-web/img/users/
+# web/img/users/
 web/mediacontent/
 
 node_modules
