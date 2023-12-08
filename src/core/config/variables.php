@@ -216,7 +216,7 @@ $login_tabs   = array(
   ),
   'signup'      => array(
     'name'      => 'Sign up',
-    'long'      => 'Request demo account',
+    'long'      => 'Register a new account',
     'imgs'      => 'fa-solid fa-address-card',
     'type'      => 'font',
     'page'      => 'signup',
@@ -284,7 +284,7 @@ $login_carousel   = array(
   ),
   'carousel3' => array(
     'signin'      => array(
-      'name'      => 'Workflow/task tracking',
+      'name'      => 'Task tracking',
       'long'      => 'Platform to track user tasks and workflow with data visualisation',
       'imgs'      => 'fas fa-user',
       'type'      => 'font',
@@ -733,13 +733,13 @@ $home_array         = array(
     'anim'  => 'swing',
     'wait'  => '1',
   ),
-  'pricing' => array(
-    'short' => 'Pricing & Features',
+  'features' => array(
+    'short' => 'Features',
     'long'  => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     'font'  => 'fa-solid fa-briefcase',
     'imgs'  => 'publications.png',
     'type'  => 'img',
-    'link'  => 'pricing',
+    'link'  => 'features',
     'anim'  => 'tada',
     'wait'  => '2',
   ),

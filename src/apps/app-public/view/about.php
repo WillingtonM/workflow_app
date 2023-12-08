@@ -8,18 +8,18 @@
                 <i class="me-2">About</i> <span class="text-warning"><?= PROJECT_TITLE ?></span> 
               </h3>
               <small class="m-0 text-light font-weight-bolder/ px-3 fs-6">
-                <?= PROJECT_TITLE ?> is a comprehensive and user-friendly management platform tailored exclusively for legal firms and professionals. <br> 
+                <?= PROJECT_TITLE ?> is a comprehensive and user-friendly task management platform tailored exclusively for teams. <br> 
                 Dedicated to helping our clients leverage the ever-evolving technology landscape. <br> 
-                Through our comprehensive online platform we empower law firms and legal professionals to efficiently manage <br> 
-                deceased estate administrations, conveyancing, marriage contracts, notary services, wills etc.
+                Through our comprehensive online platform we empower teams to efficiently manage <br> 
+                taks, deadlines, user performances, etc.
                 <br>
                 <br>
                 <span class="d-none d-lg-block">
-                  Our mission is to revolutionize the legal industry by offering cutting-edge technology solutions <br> 
+                  Our mission is to revolutionize task management tools by offering cutting-edge technology solutions <br> 
                   that simplify complex processes, enhance communication, and ensure secure data management. <br> 
                 </span>
                 <span class="d-none d-lg-block">
-                  We understand the challenges faced by legal professionals in managing diverse tasks, <br> 
+                  We understand the challenges faced by teams in managing diverse tasks, <br> 
                   and our goal is to empower them with a streamlined system/platform that saves time, <br> 
                   reduces errors, and increases overall efficiency.
                 </span>
@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="p-3">
                                     <p class="card-text/ text-white">
-                                        To revolutionize the legal fraternity by providing innovative and secure technology solutions, empowering law firms and legal professionals to efficiently manage some legal fraternal related  processes, while fostering strong client relationships and ensuring data integrity.
+                                        To revolutionize the task management tools by providing innovative and secure technology solutions, empowering teams to efficiently manage tasks and ensuring data integrity.
                                     </p>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="p-3">
                                     <p class="card-text/ text-white">
-                                        Our mission is to empower law firms and legal professionals in the legal fraternity by offering a comprehensive online platform that simplifies and streamlines the management of deceased estate administrations, conveyancing, marriage contracts, notary services, wills etc. 
+                                        Our mission is to empower teams by offering a comprehensive online platform that simplifies and streamlines the task for teams in organisations etc. 
                                         We strive to provide customized technology solutions, secure data storage, and seamless communication channels to enhance client satisfaction and operational efficiency.
                                     </p>
                                 </div>
@@ -120,7 +120,7 @@
                                       </h2>
                                       <div id="flush-collapseFour" style="border-radius: 0" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushVision">
                                         <div class="accordion-body" style="border-radius: 0">
-                                          We aim to simplify and automate complex legal processes, enabling law firms and legal professionals to save time, reduce manual efforts, and increase productivity. Our solutions are designed to streamline operations and enhance overall efficiency.
+                                          We aim to simplify and automate complex legal processes, enabling teams to save time, reduce manual efforts, and increase productivity. Our solutions are designed to streamline operations and enhance overall efficiency.
                                         </div>
                                       </div>
                                     </div>
@@ -132,7 +132,7 @@
                                       </h2>
                                       <div id="flush-collapseFive" style="border-radius: 0" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushVision">
                                         <div class="accordion-body" style="border-radius: 0">
-                                          We are dedicated to empowering law firms and legal professionals and individuals in the legal fraternity, providing them with the tools and resources they need to excel in the digital era. We believe in leveraging technology to drive growth, innovation, and success.
+                                          We are dedicated to empowering teams, providing them with the tools and resources they need to excel in the digital era. We believe in leveraging technology to drive growth, innovation, and success.
                                         </div>
                                       </div>
                                     </div>
@@ -170,6 +170,49 @@
                 <br><br>
             </div>
        </div>
+
+
+
+       <div class="row gx-4">
+          <div class="col-12">
+
+              <div class="h-100 text-white">
+                  <div class="card-header/ pb-0 p-3 py-4 text-center">
+                      <h3 class="mb-1 px-2 text-white">Meet our Team </i> </h5>
+                      <hr class="horizontal light mt-0">
+                      <p class="text-sm px-2">Feel free to get in touch with any of our awesome Team</p>
+                  </div>
+                  <div class="card-body p-3">
+                      <div class="row">
+                                  <!-- <div id="" class="col-12 col-md-4 mb-xl-0 mb-4 hover_inimate">
+                                      <div class="card card-blog card-plain wait-1s" data-animation="animated pulse">
+                                          <div class="position-relative mb-0">
+                                              <a class="d-block shadow-xl border-radius-xl">
+                                                  <img src="" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                                              </a>
+                                          </div>
+                                          <div class="card-body px-1 pb-0">
+                                              <p class="text-light mb-2 text-sm px-3 py-0 m-0">
+                                                  <span class="font-weight-bolder"> Willington <span class="text-warning"> Mhlanga </span> </span>
+                                                  <br class="m-0 p-0">
+                                                  <small class="text-white"> Full Stack Developer </small>
+
+                                                  
+                                              </p>
+
+                                              <p>
+
+                                              </p>
+
+                                          </div>
+                                      </div>
+                                  </div> -->
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
     </div>
 
 </div>

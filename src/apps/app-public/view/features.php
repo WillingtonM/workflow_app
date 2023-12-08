@@ -66,7 +66,7 @@
                                                     <button type="button" class="btn btn-dark col-12 border-radius-lg" style="border-radius: 12px;" onclick="requestModal(post_modal[9], post_modal[9], {})">Pricing Enquiry</button>
                                                 </div>
                                                 <div class="col-12 col-md-6 px-2">
-                                                    <button type="button" class="btn btn-warning col-12 border-radius-lg" style="border-radius: 12px;" onclick="requestModal(post_modal[0], post_modal[0], {})">Request Demo Account</button>
+                                                    <button type="button" class="btn btn-warning col-12 border-radius-lg" style="border-radius: 12px;" onclick="requestModal(post_modal[0], post_modal[0], {})">Register a new Account</button>
                                                 </div>
                                             </div>
                                         </div>
