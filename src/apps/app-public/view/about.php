@@ -171,42 +171,66 @@
             </div>
        </div>
 
-
-
-       <div class="row gx-4">
-          <div class="col-12">
+       <div class="row p-3" style="border-radius: 25px;">
+          <div class="col-12 bg-dark border-radius-lg " style="border-radius: 25px;">
 
               <div class="h-100 text-white">
                   <div class="card-header/ pb-0 p-3 py-4 text-center">
                       <h3 class="mb-1 px-2 text-white">Meet our Team </i> </h5>
                       <hr class="horizontal light mt-0">
                       <p class="text-sm px-2">Feel free to get in touch with any of our awesome Team</p>
+                      <br>
+                      <h6>
+                        <a href="https://github.com/WillingtonM/workflow_app">
+                          <span class="text-white"><i class="fa-brands fa-github me-3"></i> GitHub project URL:</span> <span class="text-warning">github.com/WillingtonM/workflow_app</span>
+                        </a>
+                      </h6>
                   </div>
                   <div class="card-body p-3">
                       <div class="row">
-                                  <!-- <div id="" class="col-12 col-md-4 mb-xl-0 mb-4 hover_inimate">
-                                      <div class="card card-blog card-plain wait-1s" data-animation="animated pulse">
-                                          <div class="position-relative mb-0">
-                                              <a class="d-block shadow-xl border-radius-xl">
-                                                  <img src="" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
-                                              </a>
-                                          </div>
-                                          <div class="card-body px-1 pb-0">
-                                              <p class="text-light mb-2 text-sm px-3 py-0 m-0">
-                                                  <span class="font-weight-bolder"> Willington <span class="text-warning"> Mhlanga </span> </span>
-                                                  <br class="m-0 p-0">
-                                                  <small class="text-white"> Full Stack Developer </small>
+                        <div id="" class="col-12 col-md-6 mb-xl-0 mb-4 hover_inimate">
+                            <div class="card card-blog card-plain wait-1s" data-animation="animated pulse">
+                                <div class="position-relative mb-0">
+                                    <a class="d-block shadow-xl border-radius-xl">
+                                        <img src="<?= img_path(ABS_USER_PROFILE, 'mutanga.jpeg', 1) ?>" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                                    </a>
+                                </div>
+                                <div class="card-body px-1 pb-0">
+                                    <p class="text-white mb-2 text-sm px-3 py-0 m-0">
+                                        <span class="font-weight-bolder"> Elysée <span class="text-warning"> Mutaganda </span> </span>
+                                        <br class="m-0 p-0">
+                                        <small class="text-white"> Full Stack Developer </small>
 
-                                                  
-                                              </p>
+                                        <a href="https://www.linkedin.com/in/mutaganda-elysee-620a61270/" class="float-end me-2 text-white"> <i class="fa-brands fa-linkedin"></i> </a>
+                                        <a href="https://twitter.com/M_Willington" class="float-end me-2"> <i class="fa-brands fa-twitter text-white"></i> </a>
+                                        <a href="http://github.com/M-Elysee" class="float-end me-2"> <i class="fa-brands fa-github text-white"></i> </a>
+                                    </p>
 
-                                              <p>
+                                </div>
+                            </div>
+                        </div>
 
-                                              </p>
+                        <div id="" class="col-12 col-md-6 mb-xl-0 mb-4 hover_inimate">
+                            <div class="card card-blog card-plain wait-1s" data-animation="animated pulse">
+                                <div class="position-relative mb-0">
+                                    <a class="d-block shadow-xl border-radius-xl">
+                                        <img src="<?= img_path(ABS_USER_PROFILE, 'willington.jpg', 1) ?>" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                                    </a>
+                                </div>
+                                <div class="card-body px-1 pb-0">
+                                    <p class="text-white mb-2 text-sm px-3 py-0 m-0">
+                                        <span class="font-weight-bolder"> Willington <span class="text-warning"> Mhlanga </span> </span>
+                                        <br class="m-0 p-0">
+                                        <small class="text-white"> Full Stack Developer </small>
 
-                                          </div>
-                                      </div>
-                                  </div> -->
+                                        <a href="https://www.linkedin.com/in/willington-mhlanga-0046a7140/" class="float-end me-2 text-white"> <i class="fa-brands fa-linkedin"></i> </a>
+                                        <a href="https://twitter.com/MutagandaElysee" class="float-end me-2"> <i class="fa-brands fa-twitter text-white"></i> </a>
+                                        <a href="https://github.com/WillingtonM/" class="float-end me-2"> <i class="fa-brands fa-github text-white"></i> </a>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
 
                       </div>
                   </div>
