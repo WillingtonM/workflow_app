@@ -1,7 +1,7 @@
 # Workflow
 Simple task management web-app to easily create and assign tasks to specific team members with all the necessary task management tools.
 
-![alt text](https://github.com/WillingtonM/workflow_app/web/img/other/image.png?raw=true)
+![alt text](https://github.com/WillingtonM/workflow_app/blob/main/web/img/other/image.png)
 
 
 # Introduction
